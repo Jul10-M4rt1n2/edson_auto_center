@@ -1,0 +1,404 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+.div.menu{
+	display: flex;
+	align-items: center;
+}
+
+.menu-bar{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10px 0px 10px 15px;
+	box-sizing: border-box;
+}
+.barra-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.barra-inicio{
+	height: 115px;
+	position: flex-fixed;
+	top: 0;
+	z-index: 120px;
+	background-color: #A4A4A4;
+	width: 100%;
+	display: flex;
+	padding: 0px;
+	border-bottom: 1px solid rgba(255, 255, 255, .2) ;
+	background-color: #A4A4A4;
+
+}
+.anuncio-foto{
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+}
+#anuncios{
+	font-family: arial;
+	font-size: 18px;
+
+}
+.valor {
+  font-family: arial;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  display: inline-block;
+}
+.row {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.row-login {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.barra-opção{
+	display: flex;
+	position: absolute;
+	margin-right: 0px;
+	padding: 0px;
+	width: 60px;
+	height: 50px;
+
+}
+.opcoes-de-servicos{
+	width: 100%;
+	padding: 10px;
+	
+	justify-content: center;
+	align-items: center;
+
+}
+.login-form {
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-form input {
+  font-size: 110%;
+  width: 100%;
+  line-height: 22px;
+  padding: 15px 50px;
+  border: 0;
+  color: rgb(26, 26, 26);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  outline: 0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+.dev-menu{
+	font-family: Montserrat,sans-serif;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+#formulario-da-conta {
+  width: 45%;
+
+}
+#fundo-formulario{
+	background-color: #eaeaea;
+	width: 50%;
+	height: 400px;
+	margin:auto;
+	border-radius: 10px
+}
+
+.dark {
+  color: #1a1a1a;
+}
+#logo{
+	margin: auto;
+	height: 115px;
+	width: 300px;
+	
+
+}
+#menu{
+	width: 100%;
+	height: 250px;
+	background-color: #000000;
+
+}
+#divBusca{
+  background-color:#FFFFFF;
+  border:solid 2px #000000;
+  border-radius:10px;
+  width:450px;
+  height:36px;
+  margin: auto;
+  position: center;
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:33px;
+  width:340px;
+}
+ 
+.localizacao {
+  width: 100%;
+  height: 500px;
+}
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 8px 8px 0;
+  width:73px;
+  font-weight:bold;
+  background:#FF0000;
+}
+#btnBusca{
+	cursor: pointer;
+}
+ 
+#divBusca img{
+  float:left;
+  display: flex;
+}
+#linha{
+	background-image: url("../imagens/linha.png");
+	width: 100%;
+	height: 5px;
+
+}
+#tudo{
+	width: 100%;
+	height:100%;
+	background-color: #aeaeae;
+	margin: auto;
+	padding-bottom: 100px;
+    border: none;
+}
+ul {
+	display: inline;
+	position: center;
+	margin-right: 10px;
+}
+ul li{	
+  display: inline-block;
+  padding: 15px 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-left: 15px;
+  transition: background-color 0.2s;
+
+}
+ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	font-family: arial;
+	color: black;
+}
+ul li:hover,
+ul li:active {
+  color: #fff;
+  background-color: #e7e7e7;
+}
+.opcoes-de-servicos{
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid rgba(0,0,0, 0.2);
+}
+.icones{
+	width: 64px;
+	height: 64px;
+
+}
+
+.opcoes-de-trabalho ul{
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.opcoes-de-trabalho ul li img{
+	display: block;
+	margin: 0 auto;
+}
+h1 {
+	font-family: arial,sans-serif;
+	text-align: center;
+}
+.quadro-de-anuncios{
+	background-color: #000000;
+	width: 1300px;
+	height: 1000px;
+	border-radius: 10px;
+	margin: auto;
+}
+.anuncios-dados{
+	background-color: #b7b7b7;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 12px;
+	border-radius: 10px;
+}
+.anuncios-dados:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.localizacao {
+  width: 100%;
+  height: 500px;
+}
+.rodape{
+	background-color: #A4A4A4;
+	width: 100%;
+	height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nome-do-anuncio {
+  font-family: arial;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  padding: 10px 4px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+#imganuncio {
+  width: 100%;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.link-rodape {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  transition: background-color 0.2s, color 0.2s;
+}
+.link-rodape:hover {
+  color: black;
+  background-color: #d6d6d6;
+}
+
+.ul-rodape{
+	display: inline-block;
+	height: 45px;
+	width: 100%;
+	align-items: center;
+	margin: 15px;
+	margin-left: 30%;
+	margin-right: 0px;
+
+	 
+}
+.lirodape {
+	margin: 15px;
+
+}
+
+.botao {
+  margin: 5px;
+  padding: 10px 10px;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.botao:hover,
+.botao:active {
+  color: black;
+  background-color: #d0d0d0;
+  cursor: pointer;
+}
+
+
+.divbotao{
+	display: flex;
+	justify-content: center;
+}
+#opcao-da-conta {
+  font-size: 18px;
+  font-family: times new roman;
+  margin: auto;
+  padding: 15px;
+}
+#criar-login {
+  font-size: 15px;
+  font-family: arial;
+  color: black;
+}
+#forgot {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+.form-descricao-do-anucio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-descricao-do-anucio input {
+  font-size: 110%;
+  width: 100%;
+  line-height: 22px;
+  padding: 15px 50px;
+  border: 0;
+  color: rgb(26, 26, 26);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  outline: 0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+.anuncio-form {
+  margin-top: 50px;
+}
+h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 180%;
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+}
+h2:after {
+  content: "";
+  display: block;
+  background-color: #737373;
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
